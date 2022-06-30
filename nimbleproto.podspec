@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'syftproto'
+  s.name             = 'nimbleproto'
   s.version          = '0.1.0'
   s.summary          = 'Syft protobuf Swift classes'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/NimbleEdge/syftproto'
+  s.homepage         = 'https://github.com/NimbleEdge/nimbleproto'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { "noreply" => 'noreply@gmail.com' }
-  s.source           = { :git => 'https://github.com/NimbleEdge/syftproto.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NimbleEdge/nimbleproto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform	= :ios, "13.0"
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'syftproto/**/*.swift'
   
   # s.resource_bundles = {
-  #   'syftproto' => ['syftproto/Assets/*.png']
+  #   'nimbleproto' => ['nimbleproto/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
