@@ -12,7 +12,6 @@
 		2830D85EF58E0204A8AF5813B49B8616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2A648BFCA19BED44AC01DED0438EA52B /* Pods-syftproto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6994B5B0C0A7170239A9510E144B81B7 /* Pods-syftproto_Example-dummy.m */; };
 		57CB54D5167D4155B69B030570DBF9BB /* syftproto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9D68108DF33FF6CDD18E457B1E094F /* syftproto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A85DDD5F8DBA1CE1B5F3425A035DEB87 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110357DA5DD0BA37915D71364A482B2 /* ReplaceMe.swift */; };
 		AAB01E99CF609C7FB5BF78FDE134203B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BE56D97775B6FDF5A701A86D268850FE /* Pods-syftproto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD6473F3E07BA39F41EB6AD6E26071D /* Pods-syftproto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4104D0965293D41D9285F9112FF089E /* Pods-syftproto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E986405F4E9947000635B149697CF /* Pods-syftproto_Tests-dummy.m */; };
@@ -42,7 +41,6 @@
 		21DDB412261FC1E3DEDE363A2780FBCC /* Pods-syftproto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-syftproto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		34AC918516819B0428D9C39FA2DBBA52 /* Pods-syftproto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-syftproto_Example.modulemap"; sourceTree = "<group>"; };
 		3536DF092557903AAF8789BFA228CBB7 /* Pods-syftproto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-syftproto_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4110357DA5DD0BA37915D71364A482B2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = syftproto/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		42D1435B20815CF6320EC87E64581978 /* Pods-syftproto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-syftproto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		502AAB93476AB14539D45D2C28706FB5 /* syftproto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = syftproto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592799DEC26AA5D2A54CBEE860599D09 /* syftproto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = syftproto.modulemap; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 		08A6635EBFDF1FF5BE509FF7BA02F6A9 /* syftproto */ = {
 			isa = PBXGroup;
 			children = (
-				4110357DA5DD0BA37915D71364A482B2 /* ReplaceMe.swift */,
 				BC0CD80E84C1AC5C7138EF5FDF3899AB /* Pod */,
 				BC9E104BE685F9A11FEDED4A19ED34A7 /* Support Files */,
 			);
@@ -383,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85DDD5F8DBA1CE1B5F3425A035DEB87 /* ReplaceMe.swift in Sources */,
 				058DE8B5BF1BE2784122EB9CABB79332 /* syftproto-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

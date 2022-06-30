@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'syftproto'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of syftproto.'
+  s.summary          = 'Syft protobuf Swift classes'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ayush Bansal/syftproto'
+  s.homepage         = 'https://github.com/NimbleEdge/syftproto'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ayush Bansal' => 'ayushb268@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ayush Bansal/syftproto.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+  s.author           = { "noreply" => 'noreply@gmail.com' }
+  s.source           = { :git => 'https://github.com/NimbleEdge/syftproto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'syftproto/Classes/**/*'
+  s.platform	= :ios, "13.0"
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'YES' }
+  s.ios.deployment_target = '13.0'
+  s.swift_versions = '5.1.3'
+  s.static_framework = true
+  s.source_files = 'syftproto/**/*.swift'
   
   # s.resource_bundles = {
   #   'syftproto' => ['syftproto/Assets/*.png']
@@ -38,5 +41,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwiftProtobuf', '~> 1.8.0'
 end
