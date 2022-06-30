@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'syftproto_Example' do
+  pod 'syftproto', :path => '../'
+
+  target 'syftproto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
