@@ -1,0 +1,16 @@
+PODS:
+  - syftproto (0.1.0)
+
+DEPENDENCIES:
+  - syftproto (from `../`)
+
+EXTERNAL SOURCES:
+  syftproto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  syftproto: cf581eacd322719e54f5ff9c07855724bf6c466e
+
+PODFILE CHECKSUM: 50a38c102f6ee078249a84cc616f3ecff35f6d0a
+
+COCOAPODS: 1.11.3

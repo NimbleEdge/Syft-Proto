@@ -1,0 +1,6 @@
+framework module Pods_syftproto_Example {
+  umbrella header "Pods-syftproto_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module syftproto {
+  umbrella header "syftproto-umbrella.h"
+
+  export *
+  module * { export * }
+}
